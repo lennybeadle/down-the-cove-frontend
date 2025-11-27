@@ -1114,7 +1114,7 @@ function Sidebar({ isLockedOpen, onClose }: { isLockedOpen?: boolean; onClose?: 
           shouldBeExpanded ? 'w-[220px] opacity-100' : 'w-[60px] opacity-100'
         }`}
       >
-        {/* Menu Itexwd Top */}
+        {/* Menu Item at Top */}
         <div className="w-full px-2 py-2 mb-2 flex justify-center">
           <div className={`flex items-center bg-[#1B6CA8] transition-all duration-300 ${
             shouldBeExpanded ? 'rounded-[50px] px-4 gap-3 w-full justify-start h-10' : 'rounded-full w-10 h-10 justify-center'
