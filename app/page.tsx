@@ -1647,7 +1647,20 @@ function Footer() {
   ];
 
   return (
-    <footer className="bg-[#071827] text-white md:ml-[60px]">
+    <footer className="relative overflow-hidden bg-[#071827] text-white md:ml-[60px]">
+      <div aria-hidden className="w-full text-[#FAF8F6]">
+        <svg
+          className="block h-16 w-full"
+          viewBox="0 0 1440 120"
+          preserveAspectRatio="none"
+        >
+          <path
+            fill="currentColor"
+            d="M0,48 C240,96 480,-10 720,24 C960,58 1200,80 1440,48 L1440,120 L0,120 Z"
+          />
+        </svg>
+      </div>
+
       {/* Main Footer Content */}
       <div className="mx-auto w-full max-w-[1600px] px-4 sm:px-6 lg:px-8 xl:px-10 py-12">
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
